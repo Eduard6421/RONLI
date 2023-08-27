@@ -1,0 +1,10 @@
+tqdm
+seaborn
+pandas
+matplotlib
+numpy
+jsonnet
+tensorboardx
+torch
+spacy
+scikit-learn

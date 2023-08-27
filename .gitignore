@@ -1,0 +1,8 @@
+*.pt
+dynamics_epoch_*.jsonl
+*/lightning_logs/*
+*lightning_logs
+*hparams.yaml
+*.ckpt
+*.pyc
+*.ipynb
