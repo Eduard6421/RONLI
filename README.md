@@ -69,6 +69,7 @@ The training and testing of the models is done solely one one command:
 ```
 
 The available options for model name are:
+
 '''
     cbow, gpt, bert, bert-spurious, bert-cartography, bert-cart-cl, bert-cart-cl++, bert-cart-stra-cl++
 '''
@@ -95,3 +96,71 @@ The flag subset is required for bert-cartography model and the available options
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
 We thank all researchers and data annotators behind the datasets and the developed baselines!
+
+
+|English |Romanian|Appearances|
+|:----|:----|:----|
+|Thus|Astfel|16245|
+|As such|Prin urmare|5202|
+|As a consequence|Ca urmare |4433|
+|On the other hand|Pe de altă parte|1981|
+|In consequence|În consecință|1010|
+|Thus|Așadar|948|
+|In contrast|În contrast|616|
+|As a result|Drept urmare|601|
+|In this way|În acest fel|574|
+|In other words|Cu alte cuvinte|553|
+|As a result|Ca rezultat|528|
+|Because of this|Din această cauză|520|
+|Meaning that|Adică|296|
+|In spite of this fact|În ciuda acestui fapt|267|
+|Such that|Astfel că|230|
+|In conclusion|În concluzie|197|
+|In essence|În esență|155|
+|Said differently|Altfel spus|149|
+|The result is|Rezultatul este|105|
+|Meaning that|Asta înseamnă că|92|
+|After all|În fond|53|
+|In opposition|În opoziție|49|
+|In contradiction|În contradicție|40|
+|In result|În rezultat|36|
+|Despite this|În ciuda acestui lucru|33|
+|This leading to|Aceasta duce la |30|
+|In spite of these facts|În ciuda acestor fapte|23|
+|Because of this|Din această cauză|17|
+|Concluding|Concluzionând|14|
+|In summary|Sintetizând|13|
+|Summarizing|Rezumând|12|
+|On the other side|Pe de cealaltă parte|11|
+|Despise those|În ciuda acestor lucruri|11|
+|In contrary|În mod contrar|11|
+|In summary|În rezumat|10|
+|Nevertheless|Cu toate acestea însă|9|
+|In simple terms|În termeni simpli|7|
+|To finalize|Pentru a finaliza|7|
+|In free translation|În traducere liberă|6|
+|In short|Mai pe scurt|6|
+|In more words|Pe larg|5|
+|In contrast|Constrastând |5|
+|Simplifying|Simplificând|5|
+|In other terms|În alți termeni|5|
+|In dissacord|În dezacord|4|
+|As a consequence of this|Ca o consecință a acestui fapt|4|
+|In antithesis|În antiteză|3|
+|In a conclusion|Într-o concluzie|3|
+|In an opposite sense|În sens opus|3|
+|Simply said|Simplus spus|3|
+|Leading to|Ducând la|2|
+|In a contrast|Într-un contrast|2|
+|More concise|Mai concis|2|
+|Which lead to|Ceea ce a dus la |2|
+|In contradiction|În contradictoriu|2|
+|With this in mind|Ținând cont de acestea|1|
+|Contrary to the beliefs|Contrar convingerilor|1|
+|In another formulation|Într-o alta formulare|1|
+|In popular terms|În termeni populari|1|
+|Leading to|Conducând la|1|
+|It can be concluded that|Se poate concluziona că|1|
+|In spite of these|În pofida acestor lucruri|1|
+|Leading to|Provocând astfel|1|
+
