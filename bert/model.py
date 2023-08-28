@@ -8,5 +8,5 @@ def train_pipeline(args):
 
     dataset_path = "dataset/datasets"
     print('Loading dataset')
-    dataset = NLIDataModule(data_source_folder=dataset_path,dataset_name='bert_dataset', batch_size=256,transform=get_bert_embedding)
+    dataset = NLIDataModule(data_source_folder=dataset_path,dataset_name='bert_dataset', batch_size=128,transform=get_bert_embedding)
     train_bert(datamodule=dataset, num_epochs=NUM_EPOCHS)

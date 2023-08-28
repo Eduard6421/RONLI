@@ -94,7 +94,7 @@
         "sentence1": "Durkheim crede că dacă o alterare profundă poate să ducă pas cu pas la sinucidere, o mai mică alterare trebuie să ducă la aceleași efecte.",
         "sentence2": "Neurastenia este un fel de nebunie rudimentară ce poate constitui unul dintre factorii în funcție de care variază rata sinuciderii.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "a354c956-0c88-4a2f-a13d-aa4b90951297"
     },
     {
@@ -836,7 +836,7 @@
         "sentence1": "Includerea Dobrogei în Regatul României în urma Tratatului de la San Stefano a sporit importanța provinciei, deoarece asigura ieșirea directă la mare a statului român.",
         "sentence2": "Se construiește podul de la cernavodă pentru asigurarea legăturii feroviare directe cu restul țării, iar orașul constanța devine principalul port la marea neagră.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "9b87cb5a-f744-494b-aa08-dcb61521bb55"
     },
     {
@@ -1046,7 +1046,7 @@
         "sentence1": "nu par a viza foarte limpede fondul sau teza centrală a cărții, ele reproșând totuși concluziile prea aspre, unele erori de apreciere și tonul general părtinitor.",
         "sentence2": "Comparând unele pasaje citate de marta petreu și textul publicistic semnat de mihail sebastian, criticul literar daniel cristea-enache observă că autoarea „a sărit peste pasajele, numeroase, care îi infirmă net teza «extremismului»; le-a rezumat pe altele într-un mod convenabil; și-a reluat cu insistență aceleași câteva fraze bine decupate de restul, pentru a obține un efect reprobator extins asupra întregii gazetării politice a lui sebastian„, trăgând concluzia: „cartea ei, cu premise false, analize improprii, rezumate tendențioase și răstălmăciri în toată regula, intră în speța malpraxisului critic” (vezi ''idei în dialog'', nr.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "707db4da-0150-4e52-b6c3-92cef5f47211"
     },
     {
@@ -1165,7 +1165,7 @@
         "sentence1": "Dacă nu l-a arestat până acum, aceasta a făcut-o pentru a nu știrbi prestigiul Bisericii...”.",
         "sentence2": "Se hotărăște demiterea lui și încarcerarea la o mânăstire.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "174bd65e-a787-4a6d-a86a-74d19cb46277"
     },
     {
@@ -1872,7 +1872,7 @@
         "sentence1": "În caz de industria chimică, în afară de probabilitatea de eșec, consecințele eșecului este, de asemenea, foarte important.",
         "sentence2": "Selecția de întreținere politici ar trebui să fie bazată pe risc, în loc de fiabilitate.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "a9c7cb30-d351-404b-9e22-d14145b1feb5"
     },
     {
@@ -2348,14 +2348,14 @@
         "sentence1": "Pe 15 mai, după lupte grele, diviziile de infanterie motorizată germane au înfrânt și dispersat la vest de Sedan proaspăt formata Armată a 6-a franceză.",
         "sentence2": "Germanii au izolat flancul sudic al armatei a 9-a franceze.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "1a55e7d7-5022-4df0-8036-0f5da4a74b4d"
     },
     {
         "sentence1": "Trebuie să se țină cont de faptele următoare: \n* Orbita terestră nu este deloc circulară, iar viteza Pământului pe orbită depinde, prin urmare, de poziția sa (A doua lege a lui Kepler).",
         "sentence2": "Anotimpurile au o durată inegală:\n** primăvara boreală (toamna australă), de la echinocțiul din martie până la solstițiul din iunie: ;\n** vara boreală (iarna australă), de la solstițiul din iunie până la echinocțiul din septembrie: ;\n** toamna boreală (primăvara australă), de la echinocțiul din septembrie până la solstițiul din decembrie: ;\n** iarna boreală (vara australă), de la solstițiul din decembrie până la echinocțiul din martie: .",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "130cd5cb-4536-4a7b-852c-93a688b1f34d"
     },
     {
@@ -2397,7 +2397,7 @@
         "sentence1": "Ulterior, în contextul în care lipsa unei legături feroviare directe spre Bucovina a constituit la momentul respectiv o gravă problemă pentru armata austro-ungară, s-a considerat că o cale ferată de la Borșa la Iacobeni prin Pasul Prislop și apoi pe valea Bistriței, ar putea constitui un pas strategic și un avantaj militar importante.",
         "sentence2": "Pe data de a 15 februarie  1915 au început lucrările la linia ferată, lucrări care aveau să dureze până la 1 mai 1916 și la care au fost folosiți atât 4000 de prizonieri de război ruși cât și localnici din zonă.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "3e2d3076-7476-4995-9b78-236c6b91296b"
     },
     {
@@ -2523,14 +2523,14 @@
         "sentence1": "Pentru a-și apăra drepturile de proprietate asupra pământurilor în cauză, racovicenii, în frunte cu protopopul Valeriu Florianu, au protestat violent împotriva exproprierilor de teren făcute în baza unui decret oficial mergând până la regele Carol al II-lea.",
         "sentence2": "Uzinele „mîrșa” au absorbit o mare parte a forței de muncă excedentară a racoviței.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "e029be3d-c4c3-40c7-9eaf-7ca9b5d32df7"
     },
     {
         "sentence1": "Aceasta va fi cel mai sângeros conflict al secolului al XXI-lea.",
         "sentence2": "Atacurile de la 11 septembrie 2001 și acțiunile ulterioare din afganistan si irak au fost văzute ca o dovadă a teoriei lui huntington.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "de3900f7-cc1d-4aba-8fac-7ecb7f76e824"
     },
     {
@@ -2572,7 +2572,7 @@
         "sentence1": "Deși situată în Câmpia Burnazului, ca și rezervația Comana, pădurea Manafu dispune de condiții de mediu ușor diferențiate.",
         "sentence2": "Solurile aparțin grupei cernoziomurilor argiloluviale, pe alocuri apărând insule de soluri freatic-umede, care explică existența insulelor de vegetație higrofilă din cadrul rezervației.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "79779d5b-112e-419f-8796-b51964b97370"
     },
     {
@@ -2719,14 +2719,14 @@
         "sentence1": "Extenuarea senzualității e foarte fin orchestrată, pe o axă descensională a imaginilor, de la ardența exuberant-florală la reziduurile extincției corporale: “cerul albastru și Dunărea albastră / adolescența – mușcată roșie-n fereastră // caise verzi în ocale de chihlimbar / și sâni mișcători respirând sub priviri de barbar // Lorelei râde roș cu pistrui de la jar / pe faleze pescăruși din iubire-arăsar // se înserează peste șapte coline / adolescența se clatină-n goale tulpine // Lorelei tace gri în priviri nuferi stinși / anii noștri sunt într-o singură vară cuprinși // alb-mov liliacul se reazimă-n sară / tristeți misogine aburi în tine presară // Lorelei moare brun Dunărea se-nspumă / funinginea ei se prelinge-n lacrimi de brumă // au ațipit toate și vara și luna / adolescența din ceruri îți face cu mâna”.",
         "sentence2": "Dobrogea, mai precis satul dobrogean al lui dumitru cerna, e o „provincie” lirică și fantasmatică, deopotrivă, dar în aceeași măsură este și un „citat cultural”.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "88b3063f-896b-4a7e-8278-f86e476da3a2"
     },
     {
         "sentence1": "Nu a fost făcut târg în 1968, dar a fost efectuat luptele cu tauri Sâmbăta Mare (13 aprilie) cu cele mai bune toreadori din Colombia: Alfredo Leal, Curro Girón și Pepe Cáceres.",
         "sentence2": "Sa decis pentru a se potrivi cu echitabil carnaval.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "a818658e-bde0-43de-8bdf-be26440ee008"
     },
     {
@@ -2789,7 +2789,7 @@
         "sentence1": "Majoritatea locuitorilor din Managua trăiesc în case cu un singur etaj și cu o singură încăpere, care alcătuiesc conglomerate nesfârșite și haotice, în cartiere împrăștiate la distanță unul de celălalt în jurul centrului - un parc sălbăticit, plin de fluturi, de flori și de ruine.",
         "sentence2": "Întregul lasă impresia neasemuită de amestec între un poligon militar și o pădure primordială,\" astfel descrie managua scriitorul și actorul franz xaver kroetz, în jurnalul său din 1985.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "7c69f870-3527-4143-8a92-6abe66fc3381"
     },
     {
@@ -2936,7 +2936,7 @@
         "sentence1": "Grupul nu numai că a reușit să supraviețuiască mai mult de 15 luni, dar „au și înființat o mică așezare, cu o grădină pentru a se hrăni, cu trunchiuri de copaci scobite pentru a depozita apa de ploaie, o sală de sport cu greutăți improvizate, un teren de badminton, țarcuri pentru păsări și un foc permanent, toate lucrate manual, cu o lamă veche de cuțit și multă hotărâre”.",
         "sentence2": "Când căpitanul de navă peter warner i-a găsit, erau sănătoși și veseli.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "b5608824-d7a4-4e09-b7c8-8159b63c1932"
     },
     {
@@ -7934,7 +7934,7 @@
         "sentence1": "Războiul informațional vizează structuri ale domeniului politic, economic, social sau militar, nu doar pentru a le distruge sau paraliza, ci mai ales pentru a le influența procesele decizionale.",
         "sentence2": "Se face trecerea de la stadiul de violență organizată la stadiul de influențare ostilă.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "f2dca5e6-22e1-4ac6-9ecc-ff732c325605"
     },
     {
@@ -8466,7 +8466,7 @@
         "sentence1": "Politica sa de a-și asigura puterea prin numirea de oameni loiali în roluri-cheie i-a atras antipatia unor figuri importante de la curte, inclusiv pe sora sa Verina.",
         "sentence2": "Când zenon a încercat să redobândească imperiul, nu s-a confruntat cu nicio opoziție, a intrat triumfător în constantinopol, și l-a capturat și ucis pe basiliskos și pe familia sa.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "701e8b43-a288-4f2a-9c1d-487e9d268e03"
     },
     {
@@ -10461,7 +10461,7 @@
         "sentence1": "Eutelsat a pornit dezvoltarea acestui protocol pentru a permite utilizatorilor din Europa sa poată comuta mai ușor de pe foarte popularii sateliți Astra de pe 19.2° pe sateliții proprii HotBird de pe 13°E.",
         "sentence2": "Majoritatea receptoarelor destinate europei suportă protocolul diseqc 1.0 (sau mai mare), excepție făcând receiverele dedicate și fabricate sub logo-ul sky digibox.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "e801602d-f791-4a15-9059-6a6aec4f6c5c"
     },
     {
@@ -11021,7 +11021,7 @@
         "sentence1": "Și această biserică, împreună cu clopotnița ei, sunt incluse pe Lista monumentelor istorice din județul Suceava din anul 2015.",
         "sentence2": "Pârteștii de jos - care cuprindea teritoriul aflat în partea de răsărit\n* pârteștii de sus - care cuprindea teritoriul aflat în partea de apus, unde se afla cătunul solonețul pârteștiului\nca urmare a creșterii numerice a locuitorilor satului, biserica de lemn din pârteștii de jos a devenit neîncăpătoare.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "2218b122-3e84-47d3-b6e0-1061a2bdd1d2"
     },
     {
@@ -11259,7 +11259,7 @@
         "sentence1": "Din ordinul statului, toate instituțiile publice au fost nevoite să renunțe și să reorganizeze orice club sportiv deținut în 1991, pentru a le privatiza efectiv.",
         "sentence2": "Alături de clubul de fotbal nou organizat a apărut și o asociație non-profit, afc politehnica timișoara.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "9f560803-9814-4023-b25a-dba8355fd2af"
     },
     {
@@ -11546,7 +11546,7 @@
         "sentence1": "Pisicile semisălbatice sunt principalul dușman al codroșului de munte și al altor păsări sinantrope.",
         "sentence2": "În 2 sate montane din elveția, prădarea cauzată de pisici a determinat nimicirea a 33% din ouă, moartea a 20% a puilor din cuib, cel puțin a 10% a puilor care au părăsit cuibul și a peste 3% a păsărilor adulte și în general a redus productivitatea populației locale cu cel puțin 12%.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "7b784218-58cf-4ae1-9014-d85a30575fae"
     },
     {
@@ -11784,7 +11784,7 @@
         "sentence1": "##\tDar deoarece vy nu conține toate cele trei litere distincte, nu am avut cum să adăugăm același număr din fiecare literă.",
         "sentence2": "Am pompat mai multe litere și am contrazis definiția inițială a lui l. astfel, uv<sup>2</sup>xy<sup>2</sup>z nu poate fi un șir din l.\n#\tam ajuns la o contradicție.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "a6f45bb4-836a-42d5-b7a9-bc0857fb172a"
     },
     {
@@ -12862,7 +12862,7 @@
         "sentence1": "* Oasele de mangustă egipteană excavate în Spania și Portugalia erau datate cu carbon din primul secol.",
         "sentence2": "Oamenii de știință au sugerat o introducere în timpul epocii hispania romană și o utilizare pentru eliminarea șobolanilor și șoarecilor din zonele domestice.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "15bb2894-59fa-41bd-b1f1-df5d25a7628d"
     },
     {
@@ -13709,7 +13709,7 @@
         "sentence1": "În tradiția românească, terminologia este puțin diferită: Termenii culion și scufie sunt folosiți ca sinonime, camilafca-potcap din tradiția greacă și slavă este și ea asimilată acestora.",
         "sentence2": "Vălul purtat peste potcap (care în traducere literală ar însemna \"peste camilafcă\") a luat numele de camilafcă [#].",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "dcab2f5c-9835-4e88-b65b-a3b7ae576cf2"
     },
     {
@@ -14423,7 +14423,7 @@
         "sentence1": "Cu toate acestea, la 18 martie, NBC-ul a anunțat că merge mai departe cu show-ul.",
         "sentence2": "La 29 iunie 2015, după o reacție negativă de mari proporții cauzată de discursul inaugural al campaniei electorale a lui trump, nbc-ul a declarat: „ca urmare a recentelor declarații jignitoare a lui donald trump despre imigranți, nbcuniversal își încheie relația de afaceri cu dl.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 0,
         "guid": "d29ef280-eb10-4ba3-a6cc-9a5f78445bd9"
     },
     {
@@ -15263,7 +15263,7 @@
         "sentence1": "Middlesex nu a avut o reședință evidentă, datorită situării în apropierea Londrei, diferite locații fiind utilizate în diverse scopuri.",
         "sentence2": "Tribunalul penal al comitatului se afla la old bailey pe teritoriul city of london iar până în 1889 șeriful de middlesex era ales de corporația city of london.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "a1e3dc0e-2000-491e-800d-3533ded92adc"
     },
     {
@@ -15956,7 +15956,7 @@
         "sentence1": "În teoria categoriilor termenul „aplicație” este adesea folosit ca sinonim pentru „morfism” sau „săgeată”.",
         "sentence2": "Este mai general decât „funcție”.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "37483700-4fc3-4829-9c54-e2e1d68764b4"
     },
     {
@@ -15977,14 +15977,14 @@
         "sentence1": "De asemenea, a micșorat taxa de participare de la 20 la 10 franci și a stabilit ca valoarea premiului pentru câștigătorul Turului să fie de 12.000 de franci, iar cea pentru învingătorii de etapă să fie de 3.000 de franci.",
         "sentence2": "Cel ce avea să câștige turul franței urma să obțină de șase ori venitul anual al majorității muncitorilor.</blockquote>\nel a continuat:\n<blockquote>de la paris la valurile albastre ale mediteranei, de la marseille la bordeaux, trecând pe drumuri roz și visătoare ce dorm sub soare, de-a lungul liniștitoarelor câmpuri din vendée, urmărind loara ce curge nemișcată și tăcută, oamenii noștri se vor întrece nebunește, neobosiți.</blockquote>\nstartul primului tur al franței s-a dat în satul montgeron, în apropierea cafenelei café reveil-matin, situată la intersecția străzilor melun și corbeil.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "5f94a7ea-3ec0-450f-ba67-b6da02870536"
     },
     {
         "sentence1": "Adminitrația comunei Racovița a suferit de-a lungul timpului o mulțime de reorganizări, corelându-și interesele în funcție de aparteneța sa la organizarea administrativ-teritorială de care a aparținut pe parcurul istoriei sale.",
         "sentence2": "Satul, a aparținut de „terra blachorum” și de comitatul sibiului până în anul 1224 după care de scaunul filial al tălmaciului aparținător direct de scaunul sibiului.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "f9071f76-2b1f-48ff-a6ed-07532541d1e3"
     },
     {
@@ -16096,7 +16096,7 @@
         "sentence1": "Genul a apărut într-o epocă în care au fost descoperite rămășițele fascinante ale civilizațiilor pierdute din întreaga lume, cum ar fi mormintele egiptene din Valea Regilor, fortăreața semi-mitică din Troia, piramidele ascunse în junglă ale maiașilor, orașe și palatele imperiului Asiriei.",
         "sentence2": "Povestirile reale despre descoperirile arheologice ale aventurierilor imperiali au reușit să surprindă imaginația publicului.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "6f68a61c-59c5-4757-b79e-bcbec72655a4"
     },
     {
@@ -16131,7 +16131,7 @@
         "sentence1": "Mașina a fost inițial destinată să fie cea de-a doua generație de Sumo, plasându-se în gama Tata sub Safari, însă vechiul Sumo a rămas în producție, deoarece aceasta se bucura încă de un real succes de vânzări în India, în special datorită prețului de listă redus.",
         "sentence2": "Sumo grande a completat oferta din zona suv-urilor medii fără a înlocui modelul anterior.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "9b320721-2202-4c35-88c7-db3aadab8027"
     },
     {
@@ -16145,7 +16145,7 @@
         "sentence1": "L-a chemat pe Epafroditus, secretarul său personal, să-l ajute să se înjunghie în gât, exclamând, în același timp:  „Ah, ce artist piere odată cu mine!”.",
         "sentence2": "Nero a murit la 9 iunie 68, la numai 30 de ani.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "e2d1b1f7-c2d0-4f72-a9c2-79154a9747c4"
     },
     {
@@ -16635,7 +16635,7 @@
         "sentence1": "Relațiile pot fi citite în ambele direcții, de exemplu, afirmația \"infarct miocardic   infarct miocardic\".",
         "sentence2": "De relații se agregă în baza de date și permit regăsirea listelor - de exemplu, o listă de elemente care pot provoca dureri în piept și o listă de elemente care pot fi cauzate de infarctul miocardic.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "988d81fc-4450-480c-96b9-40e4223aba9d"
     },
     {
@@ -16754,7 +16754,7 @@
         "sentence1": "Galaxiile apar din grupări de praf cosmic sub efectul gravitației.",
         "sentence2": "Au ca origine mici neomogenități ca niște cocoloașe ale gazului originar, care au crescut puțin câte puțin.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "8fcd2b47-ffe0-417b-a077-55b291a900be"
     },
     {
@@ -17188,7 +17188,7 @@
         "sentence1": "La această versiune mitralierele de 13,2 mm sunt înlocuite cu două tunuri Ikaria (licență Oerlikon) de 20&nbsp;mm, fiecare cu câte 60 de lovituri.",
         "sentence2": "Puterea sa de foc era similară cu a aparatului spitfire v. s-au produs 50 de exemplare, cu seriile 241&nbsp;- 290.\n;caracteristici:\n* versiune de bază: iar 81a.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "432c89e3-7dcb-4089-a8c0-1e44435eced8"
     },
     {
@@ -17279,7 +17279,7 @@
         "sentence1": "În 1938, Schreyer a prezentat un circuit bazat pe acestea în fața unui public restrâns și și-a explicat viziunea sa privind mașinile electronice de calcul — dar cum cele mai mari dispozitive electronice operaționale conțineau pe atunci mult mai puține tuburi decât îi erau lui necesare, aceasta a fost considerată nefezabilă.",
         "sentence2": "Zuse s-a hotărât să implementeze următorul său proiect pe bază de relee.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "dfb10aa2-e460-4bac-9bc7-6bcb60433efd"
     },
     {
@@ -17300,7 +17300,7 @@
         "sentence1": "* 1404 - Sigismund de Luxemburg scutește negustorii din Cluj de sub vame\n* 1405 - Sigismund de Luxemburg acordă Clujului dreptul de oraș liber regesc.",
         "sentence2": "Orașul capătă dreptul de a se împrejmui cu ziduri și bastioane.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "ea6fccc6-8b48-4763-9687-c59be9f5a86c"
     },
     {
@@ -17321,14 +17321,14 @@
         "sentence1": "O familie de fonturi este o colecție completă de fonturi având același stil al corpului de litera, și concepute pentru a lucra împreună.",
         "sentence2": "Helvetica” este o familie de fonturi, „helvetica bold roman 10 puncte” este un font, iar „helvetica bold roman 12 puncte” este un alt font.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "bb369526-4cc4-4554-97b7-cba0bb9710a1"
     },
     {
         "sentence1": "Cu toate acestea, Henric \"cel Mândru\" și-a menținut loialitatea din partea supușilor săi.",
         "sentence2": "A izbucnit războiul civil, moment care este considerat drept primul act al viitoarelor lupte dintre guelfi și ghibelini, care se vor extinde în principal pe teritoriul italiei.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "8f9c0cc4-555a-4a85-8d44-e7a1574dc0fc"
     },
     {
@@ -17538,7 +17538,7 @@
         "sentence1": "Secuii vedeau în turci un fel de „frate mai mare regăsit”.",
         "sentence2": "Ziarul timpul (de sub redacția lui mihai eminescu) consemna în anii 1877-1878 agitația din anumite așezări secuiești intracarpatice prilejuită de războiul româno-turc.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "9e5b5234-1434-4cbe-a8e3-5a69a499cbbb"
     },
     {
@@ -17594,7 +17594,7 @@
         "sentence1": "În cadrul acestui aranjament s-a acceptat ca sârbii și croații din Bosnia să fie considerați drept \"popoare constitutive\" ale republicii.",
         "sentence2": "A acestor acorduri, bosnia-herțegovina a fost condusă printr-un sistem în care posturile de conducere erau distribuite pe baza unui algoritm atent calculat membrilor tuturor celor trei comunități etnice.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "25ecd92d-6095-4be7-98de-88fbdc49a58c"
     },
     {
@@ -17958,7 +17958,7 @@
         "sentence1": "E necesară o conversie explicită asupra pointerului data pentru a-l transforma într-un long.",
         "sentence2": "Se poate testa dacă este un multiplu de vbytes.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "0d1cd9a5-6853-4e22-9250-e3fd50a67bc3"
     },
     {
@@ -18357,7 +18357,7 @@
         "sentence1": "După cincizeci de ani de expunere, s-au observat semne de deteriorare ale ramei, în timp ce documentele păreau a fi bine conservate.",
         "sentence2": "Rama a fost înlocuită și rotonda a fost reinaugurată la 17 septembrie 2003.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "d156ca68-de36-4723-8d6f-6dc74d22da84"
     },
     {
@@ -18413,7 +18413,7 @@
         "sentence1": "După seria de înregistrări, soții Lătărețu au rămas în București, începând să-și caute angajamente la diferite cârciumi și restaurante.",
         "sentence2": "Au început să cânte la restaurantul lui marcu căciularu din strada vespasian, în spatele gării de nord.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "6d763974-735f-4d12-9442-3c86fa0b1e4f"
     },
     {
@@ -18553,7 +18553,7 @@
         "sentence1": "Articulațiile interesate pot diferi în funcție de forma clinică.",
         "sentence2": "Aij pauciarticulară (oligoarticulară) afectează îndeosebi genunchii,\nîn ceea ce privește ''manifestările extraarticulare'', acestea pot fi:\n* febră: reprezintă cea mai importantă manifestare manifestare extraarticulară, fiind  \n* erupția cutanată: poate determina disconfort sau ;\n* uveită: prevalența acestei afecțiuni în cadrul pacienților cu aij variază între 8% și 30%;\n* hepatosplenomegalie: se regăsește în mod deosebit în forma sistemică.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "20d87f03-f0a8-454f-86ee-70239b6aed77"
     },
     {
@@ -18581,7 +18581,7 @@
         "sentence1": "În acest sens, a contribuit în parohia sa de la Tomșani la mobilizarea țăranilor pentru susținerea de acțiuni legionare.",
         "sentence2": "În vara anului 1935 a fost consemnată o slujbă religioasă, la care, a luat parte împreună cu șeful legionar al județului vâlcea, preotul doară (paroh la stroești) și legionarii din tabăra de muncă arnota, spunându-le țăranilor că național-țărăniștii și liberalii ar fi hoți și amenințând: ''„când voi veni  la  putere, îi voi tăia cu sabia de foc”''.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "f19e9125-ee98-4cf3-80b9-8a6f9c295ff1"
     },
     {
@@ -18686,7 +18686,7 @@
         "sentence1": "Hergé insistă asupra acestui punct afirmând: ''Eu îmi consider povestirile ca și cum ar fi filme.",
         "sentence2": "Nu fac narațiune, nu fac descriere.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "0d0b3094-6d77-4f66-ab7d-534e414f1406"
     },
     {
@@ -19092,7 +19092,7 @@
         "sentence1": "O dată cu revolta curuților din anul 1703 - 1711 numărul gospodăriilor s-a redus de la 400 din nou la 15, conform unei legende locale.",
         "sentence2": "A revoltei care a făcut numeroase victime a apărut în toponimia locală toponimele \"''la ucigătoare''\" și \"''pe coasta ucigătoarei''\".",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "f244f0de-4007-4550-9c72-7fc06dcb8157"
     },
     {
@@ -19379,7 +19379,7 @@
         "sentence1": "A intrat în funcțiune în anul 1956, fiind cea mai mare rafinărie din Moldova\nÎn perioada 1960-1964 la rafinărie au fost introduse o serie de procese noi de prelucrare a țițeiului.",
         "sentence2": "S-au construit două instalații de cracare catalitică, care prelucrează distilatul de vid obținut la prelucrarea păcurii și distilatul de la instalația de cocsare întârziată.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "684636ef-e3c1-469f-92ca-77e0e5446bee"
     },
     {
@@ -19400,7 +19400,7 @@
         "sentence1": "Pasiphae și Himalia au o probabilitate de 27% de a se ciocni în 4,5 miliarde de ani ).",
         "sentence2": "S-a sugerat că grupul actual ar putea fi rezultatul unei istorii  bogate de coliziuni mai recente între sateliții prograzi și retrograzi, spre deosebire de spargerea unică la scurt timp după formarea planetei care a fost dedusă pentru grupurile carme și ananke.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "3e49d911-1f88-478d-9c9d-39df0d4d3ae2"
     },
     {
@@ -19596,7 +19596,7 @@
         "sentence1": "Ca proprietar mare de pământ, a fost primit în consiliul municipal de Cernăuți în 1864 și deja la 14 septembrie 1864 (depunerea jurământului a avut loc pe 13 octombrie al anului) a fost ales primar al orașului cu 37 din 48 voturi, fiind primul primar autonom de Cernăuți, adică votat exclusiv de membri dietei.",
         "sentence2": "Jakob von petrowicz s-a mutat în primăria, care a fost construită între 1842 și 1847 pe un teren (''ringplatz'') care aparținea familiei sale.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "dc8b6f53-9362-4c26-b82f-b09ee1e98f6e"
     },
     {
@@ -20093,7 +20093,7 @@
         "sentence1": "(Octavian Paler: ''Aventuri solitare'')\n* Legislația românească interzice acordarea licenței de emisie pentru o televiziune cu programe pentru adulți, dar nu și retransmiterea acestor programe din alte țări sau producția de filme porno în Romania.",
         "sentence2": "Se ajunge la situația în care operatorii de cablu importă filme românești pentru adulți, iar banii care ar putea intra în conturile statului sunt dați afară cu forța.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "807c9750-83b4-413f-bd18-a5447715663d"
     },
     {
@@ -20114,7 +20114,7 @@
         "sentence1": "În același secol, Ludovic al XIV-lea a dispus deschiderea porților pădurii pentru public.",
         "sentence2": "Bois de boulogne a devenit, puțin câte puțin, un loc de plimbare, dar frecventarea lăsa de dorit, dacă trebuie să credem dictonul din epocă: «''nunțile din bois de boulogne nu se fac în fața preotului''.»\nîncepând cu regența, pădurea a fost adoptată de lumea elegantă.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "a5bee066-aca8-437f-bdf7-77c63c37f924"
     },
     {
@@ -20163,7 +20163,7 @@
         "sentence1": "* Și opoziția vocală semiînchisă vs. semideschisă tinde să dispară în unele regiuni.",
         "sentence2": "O/ și /ɔ/ (''côte'' „coastă” vs. ''cote'' „cotă”), /ø/ și /œ/ [''jeûne'' „post” (renunțare la hrană) vs. ''jeune'' „tânăr”], /e/ și /ɛ/ (''thé'' „ceai” vs. ''taie'' „față de pernă”) sunt omofone în sudul franței, dar opoziția se menține în nordul franței și în belgia.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "595533df-5ebb-4687-96c1-8013de3acddc"
     },
     {
@@ -20282,7 +20282,7 @@
         "sentence1": "O adaptare cheie este fuzionarea oaselor în osificări unice, cum ar fi pigostilul (ultimele 4-6 vertebre codale sudate între ele).",
         "sentence2": "Păsările au de obicei un număr mai mic de oase decât alte vertebrate terestre.",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "99918780-1c18-4302-803c-be614818a778"
     },
     {
@@ -20905,7 +20905,7 @@
         "sentence1": "Harta Venezuelei \nClima Venezuelei variază substanțial în funcție de zona țării, de altitudinea acesteia față de nivelul mării și de situarea în interiorul continentului sau la Marea Caraibelor.",
         "sentence2": "Climatul poate varia între tropical umed, așa cum este în câmpiile joase, unde atinge medii anuale de 27–28°c, până la un climat temperat continental rece în zonele platourilor înalte (''los páramos'') și a ghețarilor alpini unde temperatura medie anuală abia ajunge la 7–8°c .",
         "label": 2,
-        "corrected_label": 3,
+        "corrected_label": 2,
         "guid": "5c76c568-d2fb-4678-93af-774f71a632a7"
     },
     {

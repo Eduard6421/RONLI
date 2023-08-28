@@ -37,9 +37,9 @@ def train_bert(datamodule: pl.LightningDataModule, num_epochs: int):
     checkpoint_callback = ModelCheckpoint(dirpath = BERT_DIR, 
                                           filename = 'bert-{epoch:02d}-{val_loss:.2f}',
                                           monitor='val_loss',
-                                          save_top_k=2)
+                                          save_top_k=3)
 
-    early_stop_callback = EarlyStopping(monitor='val_loss', patience=3)
+    early_stop_callback = EarlyStopping(monitor='val_loss', patience=8)
 
     trainer = Trainer(devices=1, 
                       accelerator="gpu", default_root_dir=BERT_DIR, callbacks=[checkpoint_callback, early_stop_callback], max_epochs=num_epochs)
