@@ -54,15 +54,13 @@ def train_bert_curriculum(dataset_path: str):
     # 28500 neutral becomes: 28500 * 1 = 28500
     # Total: 107442
 
-    # We have batches of 256 items
-    # In each epoch ther are 419 batches
-    # We train for 10 epochs in the original bert, meaning that we train on 4190 iterations.
+    # We have batches of 512 items
+    # In each epoch ther are 210 batches
+    # We train for 10 epochs in the original bert, meaning that we train on 2100 iterations.
     # We try to add into the curriculum all the data before the halfway of iterations
-    # First entry at (4190/2)/5.
-    # Second entry at (4190/2)/5*2.
-    # Third entry at (4190/2)/5*3.
-    # Fourth entry at (4190/2)/5*4.
-    # Fifth entry at (4190/2)/5*5. + 4190/2 -> allowing to train till end
+    # First entry at (2100/2)/6.
+    # Second entry at (2100/2)/6*2.
+    # Third entry at 2100/2 + (2100/2)/6*3.
     # Afterwards just train until validation reflects overfit.
 
     print("RUNNING WITH TRAINIGN STEPS")
@@ -85,7 +83,7 @@ def train_bert_curriculum(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback],
-        max_steps=140,
+        max_steps=175,
         val_check_interval=100,
         check_val_every_n_epoch=None,
     )
@@ -113,7 +111,7 @@ def train_bert_curriculum(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback],
-        max_steps=280,
+        max_steps=175 * 2,
         val_check_interval=100,
         check_val_every_n_epoch=None,
     )
@@ -139,8 +137,8 @@ def train_bert_curriculum(dataset_path: str):
         devices=1,
         accelerator="gpu",
         default_root_dir=BERT_DIR,
-        callbacks=[checkpoint_callback],
-        max_steps=280 * 2,
+        callbacks=[checkpoint_callback, early_stop_callback],
+        max_steps=175 * 3 + 175 * 6,
         val_check_interval=100,
         check_val_every_n_epoch=None,
     )
@@ -154,61 +152,7 @@ def train_bert_curriculum(dataset_path: str):
     )
     trainer.fit(model=model, datamodule=module_3)
 
-    checkpoint_callback = ModelCheckpoint(
-        dirpath=BERT_DIR,
-        every_n_train_steps=100,
-        filename="stage-3-bert-{step:02d}-{val_loss:.2f}",
-        monitor="val_loss",
-        save_top_k=-1,
-    )
-
-    trainer = Trainer(
-        devices=1,
-        accelerator="gpu",
-        default_root_dir=BERT_DIR,
-        callbacks=[checkpoint_callback],
-        max_steps=280 * 3,
-        val_check_interval=100,
-        check_val_every_n_epoch=None,
-    )
-
-    module_4 = NLIDataModuleCurriculum(
-        train_stage=3,
-        data_source_folder=dataset_path,
-        dataset_name="bert_curriculum_dataset",
-        batch_size=512,
-        transform=get_bert_embedding,
-    )
-    trainer.fit(model=model, datamodule=module_4)
-
-    checkpoint_callback = ModelCheckpoint(
-        dirpath=BERT_DIR,
-        every_n_train_steps=100,
-        filename="stage-4-bert-{step:02d}-{val_loss:.2f}",
-        monitor="val_loss",
-        save_top_k=-1,
-    )
-
-    trainer = Trainer(
-        devices=1,
-        accelerator="gpu",
-        default_root_dir=BERT_DIR,
-        callbacks=[checkpoint_callback, early_stop_callback],
-        max_steps=280 * 5,
-        val_check_interval=100,
-        check_val_every_n_epoch=None,
-    )
-
-    module_5 = NLIDataModuleCurriculum(
-        train_stage=4,
-        data_source_folder=dataset_path,
-        dataset_name="bert_curriculum_dataset",
-        batch_size=512,
-        transform=get_bert_embedding,
-    )
-    trainer.fit(model=model, datamodule=module_5)
-
     # Here try to select the best checkpoint across stages rather just the one from this stage.
     # Here you can experiment with various stages of training
     # You can also remove early stopping from the experiments and just select the best checkpoint
-    trainer.test(model=model, datamodule=module_5, ckpt_path="best")
+    trainer.test(model=model, datamodule=module_3, ckpt_path="best")

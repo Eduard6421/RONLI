@@ -10,7 +10,7 @@ class NLIDatasetCurriculum(Dataset):
         self.data = self.load_data(data_path)
         self.batch_size = batch_size
         self.transform = transform
-        self.fractions = [0.2, 0.4, 0.6, 0.8, 1]
+        self.fractions = [0.3, 0.6, 1]
         self.unlocked_lengths = [
             int(len(self.data) * fraction) for fraction in self.fractions
         ]
