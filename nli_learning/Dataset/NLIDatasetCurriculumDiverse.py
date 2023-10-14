@@ -2,6 +2,7 @@ import json
 
 from torch.utils.data import Dataset
 from torch.utils.data import random_split
+import random
 
 
 class NLIDatasetCurriculumDiverse(Dataset):
@@ -9,8 +10,7 @@ class NLIDatasetCurriculumDiverse(Dataset):
         self.data = data
         self.batch_size = batch_size
         self.transform = transform
-        self.data_subset = self.data[: self.unlocked_lengths[self.current_unlock_index]]
-        self.data_subset = self._oversample(self.data_subset)
+        self.data_subset = self._oversample(self.data)
 
     def _oversample(self, data):
         # Precomputed oversampling
@@ -19,12 +19,13 @@ class NLIDatasetCurriculumDiverse(Dataset):
 
         maxim = 0
         for item in data:
-            if item[3] not in type_of_each:
-                type_of_each[item[3]] = 1
+            label = item["label"]
+            if label not in type_of_each:
+                type_of_each[label] = 1
             else:
-                type_of_each[item[3]] += 1
-            if type_of_each[item[3]] > maxim:
-                maxim = type_of_each[item[3]]
+                type_of_each[label] += 1
+            if type_of_each[label] > maxim:
+                maxim = type_of_each[label]
 
         oversample_factor = {}
         for key in type_of_each:
@@ -32,7 +33,8 @@ class NLIDatasetCurriculumDiverse(Dataset):
 
         samples = []
         for item in data:
-            samples += [item] * oversample_factor[item[3]]
+            label = item["label"]
+            samples += [item] * oversample_factor[label]
 
         random.shuffle(samples)
 
@@ -44,7 +46,7 @@ class NLIDatasetCurriculumDiverse(Dataset):
         return len(self.data_subset)
 
     def __getitem__(self, idx):
-        item = self.data[idx]
+        item = self.data_subset[idx]
         guid = item["guid"]
         sentence1 = item["sentence1"]
         sentence2 = item["sentence2"]
