@@ -78,14 +78,14 @@ def train_bert_curriculum(dataset_path: str):
         save_top_k=-1,
     )
 
-    early_stop_callback = EarlyStopping(monitor="val_loss", patience=3)
+    early_stop_callback = EarlyStopping(monitor="val_loss", patience=10)
 
     trainer = Trainer(
         devices=1,
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback],
-        max_steps=280,
+        max_steps=140,
         val_check_interval=100,
         check_val_every_n_epoch=None,
     )
@@ -95,7 +95,7 @@ def train_bert_curriculum(dataset_path: str):
         train_stage=0,
         data_source_folder=dataset_path,
         dataset_name="bert_curriculum_dataset",
-        batch_size=256,
+        batch_size=512,
         transform=get_bert_embedding,
     )
     trainer.fit(model=model, datamodule=module_1)
@@ -113,7 +113,7 @@ def train_bert_curriculum(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback],
-        max_steps=280 * 2,
+        max_steps=280,
         val_check_interval=100,
         check_val_every_n_epoch=None,
     )
@@ -122,7 +122,7 @@ def train_bert_curriculum(dataset_path: str):
         train_stage=1,
         data_source_folder=dataset_path,
         dataset_name="bert_curriculum_dataset",
-        batch_size=256,
+        batch_size=512,
         transform=get_bert_embedding,
     )
     trainer.fit(model=model, datamodule=module_2)
@@ -140,7 +140,7 @@ def train_bert_curriculum(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback],
-        max_steps=280 * 3,
+        max_steps=280 * 2,
         val_check_interval=100,
         check_val_every_n_epoch=None,
     )
@@ -149,7 +149,7 @@ def train_bert_curriculum(dataset_path: str):
         train_stage=2,
         data_source_folder=dataset_path,
         dataset_name="bert_curriculum_dataset",
-        batch_size=256,
+        batch_size=512,
         transform=get_bert_embedding,
     )
     trainer.fit(model=model, datamodule=module_3)
@@ -167,7 +167,7 @@ def train_bert_curriculum(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback],
-        max_steps=280 * 4,
+        max_steps=280 * 3,
         val_check_interval=100,
         check_val_every_n_epoch=None,
     )
@@ -176,7 +176,7 @@ def train_bert_curriculum(dataset_path: str):
         train_stage=3,
         data_source_folder=dataset_path,
         dataset_name="bert_curriculum_dataset",
-        batch_size=256,
+        batch_size=512,
         transform=get_bert_embedding,
     )
     trainer.fit(model=model, datamodule=module_4)
@@ -194,7 +194,7 @@ def train_bert_curriculum(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback, early_stop_callback],
-        max_steps=280 * 10,
+        max_steps=280 * 5,
         val_check_interval=100,
         check_val_every_n_epoch=None,
     )
@@ -203,7 +203,7 @@ def train_bert_curriculum(dataset_path: str):
         train_stage=4,
         data_source_folder=dataset_path,
         dataset_name="bert_curriculum_dataset",
-        batch_size=256,
+        batch_size=512,
         transform=get_bert_embedding,
     )
     trainer.fit(model=model, datamodule=module_5)
