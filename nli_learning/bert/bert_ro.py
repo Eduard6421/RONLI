@@ -39,12 +39,18 @@ def train_bert(datamodule: pl.LightningDataModule, num_epochs: int):
                                           monitor='val_loss',
                                           save_top_k=3)
 
-    early_stop_callback = EarlyStopping(monitor='val_loss', patience=8)
+    early_stop_callback = EarlyStopping(monitor='val_loss', patience=4)
 
     trainer = Trainer(devices=1, 
                       accelerator="gpu", default_root_dir=BERT_DIR, callbacks=[checkpoint_callback, early_stop_callback], max_epochs=num_epochs)
     #tuner = Tuner(trainer)
     #tuner.scale_batch_size(model, datamodule=datamodule)
 
+
+    print("Training is starting")
+
     trainer.fit(model=model,datamodule=datamodule)
+
+    print("Training has ended")
     trainer.test(model=model, datamodule=datamodule, ckpt_path='best')
+    print("ended test")
