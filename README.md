@@ -76,7 +76,7 @@ The available options for model name are:
 
 The flag subtype is required for CBOW based models and the available options are:
 '''
-    svc, xgb
+    svc, logreg
 '''
 
 The flag subset is required for bert-cartography model and the available options are:

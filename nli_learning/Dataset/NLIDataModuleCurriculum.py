@@ -44,7 +44,7 @@ class NLIDataModuleCurriculum(pl.LightningDataModule):
         )
 
     def prepare_data(self):
-         if os.path.exists(self.test_path):
+        if os.path.exists(self.test_path):
             print("Data was already preprepared")
             return
 
