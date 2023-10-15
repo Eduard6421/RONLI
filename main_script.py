@@ -26,7 +26,7 @@ def main():
     parser.add_argument(
         "--subtype",
         type=str,
-        choices=["svc", "xgb"],
+        choices=["svc", "xgb", "logreg"],
         help="Number of epochs to train the model",
     )
     parser.add_argument(

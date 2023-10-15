@@ -64,7 +64,7 @@ def train_bert_cart_stra_cl_plus(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback],
-        max_steps=228,
+        max_steps=200,
         val_check_interval=50,
         check_val_every_n_epoch=None,
     )
@@ -92,7 +92,7 @@ def train_bert_cart_stra_cl_plus(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback],
-        max_steps=228,
+        max_steps=200,
         val_check_interval=50,
         check_val_every_n_epoch=None,
     )
@@ -119,7 +119,7 @@ def train_bert_cart_stra_cl_plus(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback],
-        max_steps=228,
+        max_steps=200,
         val_check_interval=50,
         check_val_every_n_epoch=None,
     )
@@ -146,7 +146,7 @@ def train_bert_cart_stra_cl_plus(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback],
-        max_steps=228,
+        max_steps=200,
         val_check_interval=50,
         check_val_every_n_epoch=None,
     )
