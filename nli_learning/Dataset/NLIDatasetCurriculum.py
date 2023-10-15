@@ -10,7 +10,7 @@ class NLIDatasetCurriculum(Dataset):
         self.data = self.load_data(data_path)
         self.batch_size = batch_size
         self.transform = transform
-        self.fractions = [0.3, 0.6, 1]
+        self.fractions = [0.60, 0.80, 1]
         self.unlocked_lengths = [
             int(len(self.data) * fraction) for fraction in self.fractions
         ]
@@ -46,7 +46,17 @@ class NLIDatasetCurriculum(Dataset):
         random.shuffle(samples)
 
         print(type_of_each)
-
+        
+        type_of_each = {}
+        for item in samples:
+            label = item["label"]
+            if label not in type_of_each:
+                type_of_each[label] = 1
+            else:
+                type_of_each[label] += 1
+                
+        print(type_of_each)
+        
         return samples
 
     def __len__(self):

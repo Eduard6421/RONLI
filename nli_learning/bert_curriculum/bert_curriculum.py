@@ -83,7 +83,7 @@ def train_bert_curriculum(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback],
-        max_steps=175,
+        max_steps=100,
         val_check_interval=100,
         check_val_every_n_epoch=None,
     )
@@ -111,7 +111,7 @@ def train_bert_curriculum(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback],
-        max_steps=175 * 2,
+        max_steps=200,
         val_check_interval=100,
         check_val_every_n_epoch=None,
     )
@@ -138,7 +138,7 @@ def train_bert_curriculum(dataset_path: str):
         accelerator="gpu",
         default_root_dir=BERT_DIR,
         callbacks=[checkpoint_callback, early_stop_callback],
-        max_steps=175 * 3 + 175 * 6,
+        max_steps=1000,
         val_check_interval=100,
         check_val_every_n_epoch=None,
     )

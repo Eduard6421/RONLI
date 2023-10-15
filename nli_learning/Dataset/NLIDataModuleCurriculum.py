@@ -44,9 +44,9 @@ class NLIDataModuleCurriculum(pl.LightningDataModule):
         )
 
     def prepare_data(self):
-        # if os.path.exists(self.test_path):
-        #    print("Data was already preprepared")
-        #    return
+         if os.path.exists(self.test_path):
+            print("Data was already preprepared")
+            return
 
         print("Preparing the curriculum data")
         val_dataset = NLIDataset(self.val_source_data, self.batch_size, self.transform)
