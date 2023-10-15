@@ -14,7 +14,7 @@ class NLIDataModuleCurriculumDiverse(pl.LightningDataModule):
         self.batch_size = batch_size
         self.transform = transform
         self.train_stage = train_stage
-        self.fractions = [0.2, 0.4, 0.6, 0.8, 1]
+        self.fractions = [0.2,0.4, 0.6, 0.8,1]
 
         # Source paths
         self.data_source_folder = data_source_folder
@@ -30,7 +30,6 @@ class NLIDataModuleCurriculumDiverse(pl.LightningDataModule):
 
     def prepare_data(self):
 
-        
         import json 
         
         with open(self.train_source_data,'r',encoding='UTF-8') as f:

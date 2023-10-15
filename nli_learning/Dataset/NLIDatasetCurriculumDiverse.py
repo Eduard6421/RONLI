@@ -39,6 +39,19 @@ class NLIDatasetCurriculumDiverse(Dataset):
         random.shuffle(samples)
 
         print(type_of_each)
+        
+        
+      
+        type_of_each = {}
+        for item in samples:
+            label = item["label"]
+            if label not in type_of_each:
+                type_of_each[label] = 1
+            else:
+                type_of_each[label] += 1
+
+        print(type_of_each)        
+        
 
         return samples
 
