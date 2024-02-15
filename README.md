@@ -15,8 +15,6 @@ We introduce the first Romanian NLI corpus which we release alongside the code e
       - [Attention!](#attention)
   - [Usage ](#usage-)
   - [⛏️ Developed with ](#️-developed-with-)
-  - [Citation ](#citation-)
-  - [🎉 Acknowledgements ](#-acknowledgements-)
 
 ## About <a name = "about"></a>
 
@@ -90,12 +88,6 @@ The flag subset is required for bert-cartography model and the available options
 - [Pytorch](https://pytorch.org/) - Deep Learning Library.
 - [PytorchLightning](https://www.pytorchlightning.ai/index.html) - Pytorch Framework
 - [HuggingfaceTransformers](https://huggingface.co/)- AI Model Repository 
-
-## Citation <a name="citation"></a>
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-We thank all researchers and data annotators behind the datasets and the developed baselines!
 
 
 |English |Romanian|Appearances|
