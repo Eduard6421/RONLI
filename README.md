@@ -3,7 +3,9 @@
 Natural language inference (NLI), the task of recognizing the entailment relationship in sentence pairs, is an actively studied topic serving as proxy for natural language understanding. Despite the relevance of the task in building conversational agents and improving text classification, machine translation and other NLP tasks, to the best of our knowledge, there is no publicly available NLI corpus for the Romanian language.
 We introduce the first Romanian NLI corpus which we release alongside the code employed to gather the dataset and the developed baselines. We release our code and dataset under the MIT license.
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+# License
+Creative Commons Attribution Non Commercial Share Alike 4.0
+
 
 ## 📝 Table of Contents <a name = "tabel_of_contents"></a>
 
