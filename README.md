@@ -5,7 +5,7 @@ Natural language inference (NLI), the task of recognizing the entailment relatio
 We also propose a curriculum learning method based on data cartography that uses a novel difficulty scoring function that jointly takes confidence and variability into account. By design, our novel scoring function assigns low scores to items characterized by low variability and high correctness, medium scores for items perceived as ambiguous, and high scores to difficult examples. Our approach employs stratified easy-to-hard batches. This ensures the diversity of class labels right from the beginning of the training process, avoiding to bias the model towards certain classes. 
 
 # License
-The dataset and code is released under: [Creative Commons Attribution Non Commercial Share Alike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+The dataset and code are released under: [Creative Commons Attribution Non Commercial Share Alike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
 ## 📝 Table of Contents <a name = "tabel_of_contents"></a>
 
