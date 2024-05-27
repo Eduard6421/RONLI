@@ -1,16 +1,17 @@
-# RoNLI: A Romanian Natural Language Inference Corpus
+# A Novel Cartography-Based Curriculum Learning Method Applied on RoNLI: The First Romanian Natural Language Inference Corpus (ACL 2024) - Official Repository
 
-Natural language inference (NLI), the task of recognizing the entailment relationship in sentence pairs, is an actively studied topic serving as proxy for natural language understanding. Despite the relevance of the task in building conversational agents and improving text classification, machine translation and other NLP tasks, to the best of our knowledge, there is no publicly available NLI corpus for the Romanian language.
-We introduce the first Romanian NLI corpus which we release alongside the code employed to gather the dataset and the developed baselines. We release our code and dataset under the MIT license.
+Natural language inference (NLI), the task of recognizing the entailment relationship in sentence pairs, is an actively studied topic serving as proxy for natural language understanding. Despite the relevance of the task in building conversational agents and improving text classification, machine translation and other NLP tasks, to the best of our knowledge, there is no publicly available NLI corpus for the Romanian language. We introduce the first Romanian NLI corpus which we release alongside the code employed to gather the dataset and the developed baselines. We release our code and dataset under the CC-NA-SA 4.0 license.
+
+We also propose a curriculum learning method based on data cartography that uses a novel difficulty scoring function that jointly takes confidence and variability into account. By design, our novel scoring function assigns low scores to items characterized by low variability and high correctness, medium scores for items perceived as ambiguous, and high scores to difficult examples. Our approach employs stratified easy-to-hard batches. This ensures the diversity of class labels right from the beginning of the training process, avoiding to bias the model towards certain classes. 
 
 # License
-Creative Commons Attribution Non Commercial Share Alike 4.0
-
+The dataset and code is released under: [Creative Commons Attribution Non Commercial Share Alike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
 ## 📝 Table of Contents <a name = "tabel_of_contents"></a>
 
 - [RoNLI: A Romanian Natural Language Inference Corpus](#ronli-a-romanian-natural-language-inference-corpus)
   - [📝 Table of Contents ](#-table-of-contents-)
+  - [Citation ](#citation-)
   - [About ](#about-)
   - [Getting Started ](#getting-started-)
     - [Installing Prerequisites ](#installing-prerequisites-)
@@ -18,12 +19,24 @@ Creative Commons Attribution Non Commercial Share Alike 4.0
   - [Usage ](#usage-)
   - [⛏️ Developed with ](#️-developed-with-)
 
+## Citation <a name = "citation"></a>
+
+Please cite our work if you use any material released in this repository.
+```
+@InProceedings{Poesina-ACL-2024,
+  author    = {Ristea, Nicolae-Catalin and Croitoru, Florinel-Alin and Ionescu, Radu Tudor and Popescu, Marius and Khan, Fahad Shahbaz and Shah, Mubarak},
+  title     = "{A Novel Cartography-Based Curriculum Learning Method Applied on RoNLI: The First Romanian Natural Language Inference Corpus}",
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  publisher = {Association for Computational Linguistics},
+  year      = {2024},
+  }
+```
+
 ## About <a name = "about"></a>
 
-This repository holds the dataset and baselines introduced in the paper "RoNLI: A Romanian Natural Language Inference Corpus" while also hosting our fork of the data-cartography method introduced by (Swayamdipta et al., 2020).
+This repository holds the dataset and baselines introduced in the paper "A Novel Cartography-Based Curriculum Learning Method Applied on RoNLI: The First Romanian Natural Language Inference Corpus" accepted at ACL 2024. The repository also hosts our fork of the data-cartography method introduced by (Swayamdipta et al., 2020).
 
-
-The project is structured as following:
+The project is structured as follows:
 
     \RONLI
         \ bert - folder which contains the bert training pipeline
@@ -42,19 +55,18 @@ The project is structured as following:
         \ gpt_checkpoints - folder which hosts checkpoitns during RO-GPT2 model training
         \ nli_learning - folder which contains the implementation of the suggested baselines
 
-
 ## Getting Started <a name = "getting_started"></a>
 
 ### Installing Prerequisites <a name = "prerequisites"></a>
 
-The environment dependencies can be found insitde the env.yml file. An dedicated env can be created automatically with the command
+The environment dependencies can be found insitde the env.yml file. An dedicated env can be created automatically with the command:
 ```
 conda env create -f my_env.yml
 ```
 
 #### Attention! 
 
-CBOW have a dependency on the fastText libray. Due to no available pywheel for Windows we recommend building it locally. This can be easily done by running inside the conda environment the command:
+CBOW have a dependency on the fastText library. Due to no available pywheel for Windows we recommend building it locally. This can be easily done by running inside the conda environment the command:
 
 ```
 bash prereq_install.sh
@@ -63,7 +75,7 @@ bash prereq_install.sh
 
 ## Usage <a name="usage"></a>
 
-The training and testing of the models is done solely one one command:  
+The training and testing of the models is performed with one command:  
 ```
     python -m main_script --model [model_name]  -subtype [model_subtype]  --subset [data_subset]
 ```
@@ -91,70 +103,4 @@ The flag subset is required for bert-cartography model and the available options
 - [PytorchLightning](https://www.pytorchlightning.ai/index.html) - Pytorch Framework
 - [HuggingfaceTransformers](https://huggingface.co/)- AI Model Repository 
 
-
-|English |Romanian|Appearances|
-|:----|:----|:----|
-|Thus|Astfel|16245|
-|As such|Prin urmare|5202|
-|As a consequence|Ca urmare |4433|
-|On the other hand|Pe de altă parte|1981|
-|In consequence|În consecință|1010|
-|Thus|Așadar|948|
-|In contrast|În contrast|616|
-|As a result|Drept urmare|601|
-|In this way|În acest fel|574|
-|In other words|Cu alte cuvinte|553|
-|As a result|Ca rezultat|528|
-|Because of this|Din această cauză|520|
-|Meaning that|Adică|296|
-|In spite of this fact|În ciuda acestui fapt|267|
-|Such that|Astfel că|230|
-|In conclusion|În concluzie|197|
-|In essence|În esență|155|
-|Said differently|Altfel spus|149|
-|The result is|Rezultatul este|105|
-|Meaning that|Asta înseamnă că|92|
-|After all|În fond|53|
-|In opposition|În opoziție|49|
-|In contradiction|În contradicție|40|
-|In result|În rezultat|36|
-|Despite this|În ciuda acestui lucru|33|
-|This leading to|Aceasta duce la |30|
-|In spite of these facts|În ciuda acestor fapte|23|
-|Because of this|Din această cauză|17|
-|Concluding|Concluzionând|14|
-|In summary|Sintetizând|13|
-|Summarizing|Rezumând|12|
-|On the other side|Pe de cealaltă parte|11|
-|Despise those|În ciuda acestor lucruri|11|
-|In contrary|În mod contrar|11|
-|In summary|În rezumat|10|
-|Nevertheless|Cu toate acestea însă|9|
-|In simple terms|În termeni simpli|7|
-|To finalize|Pentru a finaliza|7|
-|In free translation|În traducere liberă|6|
-|In short|Mai pe scurt|6|
-|In more words|Pe larg|5|
-|In contrast|Constrastând |5|
-|Simplifying|Simplificând|5|
-|In other terms|În alți termeni|5|
-|In dissacord|În dezacord|4|
-|As a consequence of this|Ca o consecință a acestui fapt|4|
-|In antithesis|În antiteză|3|
-|In a conclusion|Într-o concluzie|3|
-|In an opposite sense|În sens opus|3|
-|Simply said|Simplus spus|3|
-|Leading to|Ducând la|2|
-|In a contrast|Într-un contrast|2|
-|More concise|Mai concis|2|
-|Which lead to|Ceea ce a dus la |2|
-|In contradiction|În contradictoriu|2|
-|With this in mind|Ținând cont de acestea|1|
-|Contrary to the beliefs|Contrar convingerilor|1|
-|In another formulation|Într-o alta formulare|1|
-|In popular terms|În termeni populari|1|
-|Leading to|Conducând la|1|
-|It can be concluded that|Se poate concluziona că|1|
-|In spite of these|În pofida acestor lucruri|1|
-|Leading to|Provocând astfel|1|
 
