@@ -9,15 +9,11 @@ The dataset and code are released under: [Creative Commons Attribution Non Comme
 
 ## 📝 Table of Contents <a name = "tabel_of_contents"></a>
 
-- [RoNLI: A Romanian Natural Language Inference Corpus](#ronli-a-romanian-natural-language-inference-corpus)
-  - [📝 Table of Contents ](#-table-of-contents-)
   - [Citation ](#citation-)
   - [About ](#about-)
   - [Getting Started ](#getting-started-)
-    - [Installing Prerequisites ](#installing-prerequisites-)
-      - [Attention!](#attention)
   - [Usage ](#usage-)
-  - [⛏️ Developed with ](#️-developed-with-)
+  - [Developed with ](#️-developed-with-)
 
 ## Citation <a name = "citation"></a>
 
@@ -82,19 +78,19 @@ The training and testing of the models is performed with one command:
 
 The available options for model name are:
 
-'''
+```
     cbow, gpt, bert, bert-spurious, bert-cartography, bert-cart-cl, bert-cart-cl++, bert-cart-stra-cl++
-'''
+```
 
 The flag subtype is required for CBOW based models and the available options are:
-'''
+```
     svc, logreg
-'''
+```
 
 The flag subset is required for bert-cartography model and the available options are:
-'''
+```
     easy, ambiguous, hard, easyambiguous
-'''
+```
 
 
 
