@@ -20,7 +20,7 @@ The dataset and code are released under: [Creative Commons Attribution Non Comme
 Please cite our work if you use any material released in this repository.
 ```
 @InProceedings{Poesina-ACL-2024,
-  author    = {Ristea, Nicolae-Catalin and Croitoru, Florinel-Alin and Ionescu, Radu Tudor and Popescu, Marius and Khan, Fahad Shahbaz and Shah, Mubarak},
+  author    = {Poesina, Eduard Gabriel and Caragea, Cornelia and Ionescu, Radu Tudor},
   title     = "{A Novel Cartography-Based Curriculum Learning Method Applied on RoNLI: The First Romanian Natural Language Inference Corpus}",
   booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
   publisher = {Association for Computational Linguistics},
